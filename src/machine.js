@@ -112,7 +112,7 @@ function openModalHandler() {
 
         if (intersects.length > 0) {
             ModalWindowisActive *= -1;
-            container.classList.toggle('is_open')
+            container.classList.add('is_open')
         }
     })
 }
