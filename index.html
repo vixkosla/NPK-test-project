@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine model viewer.</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+<script>
+  function toggleSection(id) {
+    const section = document.getElementById(id);
+    section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
+  }
+
+  function closeWindow(id) {
+    const container = document.getElementById(id);
+    console.log('hey')
+    container.classList.remove('is_open');
+  }
+</script>
+
+</html>
