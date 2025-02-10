@@ -1,14 +1,6 @@
 import './modal.css'
 
-
-
-
 export function functionalWindow() {
-    function toggleSection(id) {
-        var section = document.getElementById(id);
-        console.log('toggle list')
-        section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
-      }
 
     return `
     <div class="modal">

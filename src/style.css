@@ -13,19 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-html {
-  /* scroll-behavior: ; */
-}
-
 body {
   margin: 0;
   display: flex;
@@ -41,8 +28,6 @@ h1 {
 }
 
 #app {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
   width: 100%;
   padding: 2rem;
   text-align: center;
